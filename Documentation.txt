@@ -1,0 +1,15 @@
+Documentation:
+This application demonstrates the effective miles/gallon of a vehicle. The potential range of a vehicle is defined as the gas tank size (in gallons) times the miles/gallon rating of the vehicle. According to https://www.fueleconomy.gov/feg/factors.shtml, there are various factors that can affect the effective range of a vehicle. One of these factors is Quick acceleration and heavy braking, which can reduce the city mpg by 5% while reducing the highway mpg by 33%. This application will take this factor into account to return the effective mpg of your vehicle.
+
+
+
+Instructions:
+1) Enter the gas tank size (in gallons)
+2) Check the box if you would like to see the range of the vehicle, accounting for heavy braking/quick acceleration
+3) Select whether you would like to predict City Range, Highway Range, or both
+4) Depending on which option you select in step 3, 1 or 2 input boxes will appear. If you selected City, Enter the city miles/gallon your vehicle receives. If you selected highway, enter the highway miles/gallon your vehicle receives. If you selected both, enter both values.
+
+The output will show:
+1) Potential range = Gas Tank Size * Miles/Gallon
+2) Range lost due to factors = 33% * Potential Range for highway and 5% * Potential Range for City
+3) Net Range = Potential Range - Range lost due to factors
